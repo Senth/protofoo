@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package senth.internal;
 
-option go_package = "github.com/Senth/protofoo/go/internal";
+option go_package = "github.com/Senth/protofoo-go/internal";
 
 import "common/password.proto";
 

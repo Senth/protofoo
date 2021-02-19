@@ -1,0 +1,3 @@
+[submodule "go-repo"]
+	path = go-repo
+	url = https://github.com/Senth/protofoo-go
