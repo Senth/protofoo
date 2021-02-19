@@ -1,0 +1,15 @@
+#!/bin/bash
+
+git_command_on_repo() {
+  current_dir=$PWD
+  dir=$1
+  shift
+  cd "$dir"
+
+  git "$@"
+
+  cd "$current_dir"
+}
+
+git_command_on_repo . "$@"
+git_command_on_repo go-repo "$@"
