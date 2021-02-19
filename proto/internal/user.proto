@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package senth.internal;
+
+option go_package = "github.com/Senth/protofoo/go/internal";
+
+import "common/password.proto";
+
+message User {
+  string name = 1;
+  senth.common.Password password = 2;
+}
