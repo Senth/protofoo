@@ -9,4 +9,5 @@ import "common/password.proto";
 message User {
   string name = 1;
   senth.common.Password password = 2;
+  string email = 3;
 }
